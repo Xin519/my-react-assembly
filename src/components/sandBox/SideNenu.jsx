@@ -33,10 +33,25 @@ const menuArray = [
     title: 'Checkbox',
     icon: <UserOutlined />,
     
+  }, {
+    key: '/BlogList',
+    title: '自定义hook实现分页筛选...',
+    icon: <UserOutlined />,
+    
+  }, {
+    key: '/SearchBox',
+    title: 'input检索',
+    icon: <UserOutlined />,
+    
+  }, {
+    key: '/UserList',
+    title: '列表详情hook封装',
+    icon: <UserOutlined />,
+    
   }
 ]
 
-// const iconList = {
+// const iconList = { 
 //   '/home': <UserOutlined />
 // }
 
