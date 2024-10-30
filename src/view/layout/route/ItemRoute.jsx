@@ -11,6 +11,8 @@ const BlogList = lazy(() => import('../../main/BlogList'))
 const SearchBox = lazy(() => import('../../main/SearchBox'))
 const UserList = lazy(() => import('../../main/UserList'))
 const Calendar = lazy(() => import('../../main/Calendar'))
+const Icon = lazy(() => import('../../main/Icon'))
+const Space = lazy(() => import('../../main/Space'))
 
 const pathList = [
 	{
@@ -71,6 +73,8 @@ export default function ItemRoute() {
         <Route path='/SearchBox' element={<SearchBox />} />
         <Route path='/UserList' element={<UserList />} /> 
 		<Route path='/Calendar' element={<Calendar />} /> 
+		<Route path='/Icon' element={<Icon />} /> 
+		<Route path='/Space' element={<Space />} /> 
 		{
 			// pathList.map(i => {
 			// 	i[i.name] = pathFn(i.element)
